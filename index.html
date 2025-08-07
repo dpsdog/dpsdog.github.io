@@ -5,14 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Fancier Version</title>
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
     body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       font-family: 'Georgia', serif;
       background: #f9f9f9;
       color: #222;
       padding: 40px;
-      max-width: 600px;
-      margin: auto;
       line-height: 1.6;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
     }
     p {
       font-size: 1.3rem;
@@ -28,10 +38,12 @@
   </style>
 </head>
 <body>
-  <p>Making Money is the Only Way</p>
-  <p>Follow the Cash Flow</p>
-  <p>Unveil the Hidden Realities</p>
-  <p class="highlight">And So, What Then?</p>
-  <p>Now, You Know What to DO!</p>
+  <div class="container">
+    <p>Making Money is the Only Way</p>
+    <p>Follow the Cash Flow</p>
+    <p>Unveil the Hidden Realities</p>
+    <p class="highlight">And So, What Then?</p>
+    <p>Now, You Know What to DO!</p>
+  </div>
 </body>
 </html>
